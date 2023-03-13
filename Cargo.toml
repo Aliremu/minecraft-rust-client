@@ -1,0 +1,20 @@
+[package]
+name = "rust-inject"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "inject"
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+winapi = "0.3"
+user32-sys = "0.2.0"
+ctor = "0.1.26"
+dll-syringe = "0.15.0"
+jni = { version = "0.21.0", features = [ "java-locator", "invocation", "libloading" ] }
+lazy_static = "1.4.0"
+paste = "1.0.12"
+inject_derive = { path = "inject_derive" }
