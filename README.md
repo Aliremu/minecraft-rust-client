@@ -1,3 +1,6 @@
+# minecraft-rust-client
+
+Minecraft Injection Client built in Rust
 
 ## Usage/Examples
 
@@ -57,5 +60,5 @@ unsafe fn main() {
 }
 ```
 
-# Source Mappings
+## Source Mappings
 You can find official source mappings from Mojang in each version's .json file.
