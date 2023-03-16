@@ -17,4 +17,5 @@ dll-syringe = "0.15.0"
 jni = { version = "0.21.0", features = [ "java-locator", "invocation", "libloading" ] }
 lazy_static = "1.4.0"
 paste = "1.0.12"
+detour = "0.8.0"
 inject_derive = { path = "inject_derive" }
